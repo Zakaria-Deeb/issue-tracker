@@ -1,0 +1,118 @@
+.SingleIssue {
+    border-radius: 20px;
+    margin: 5%;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px black;
+    background: none;
+}
+
+.description {
+    border: none;
+    resize: none;
+    cursor: auto;
+    outline: none;
+    align-self: center;
+    padding: 2%;
+    box-shadow: 1px 1px 1px 1px black;
+    width: 50%;
+    height: 180px;
+    font-size: larger;
+    font-weight: 700;
+    background: none;
+}
+
+.priority {
+    position: relative;
+    float: right;
+    margin-right: 5%;
+    border: none;
+    color: azure;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px black;
+    font-weight: 490;
+}
+
+.Low {
+    border: #219910;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #219910;
+    color: black;
+}
+
+.Medium {
+    border: #f6a815;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #f6a815;
+    color: black;
+}
+
+.High {
+    border: #eb0e07;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #eb0e07;
+    color: black;
+}
+
+.issueType {
+    position: relative;
+    float: left;
+    margin-left: 5%;
+    border: none;
+    color: azure;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px black;
+    font-weight: 490;
+}
+
+.Feature {
+    border: #219910;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #219910;
+    color: black;
+}
+
+.Documentation {
+    border: #ad9518;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #ad9518;
+    color: black;
+}
+
+.Bug {
+    border: #eb0e07;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #eb0e07;
+    color: black;
+}
+
+.delete-button {
+    position: relative;
+    float: left;
+    left: 20%;
+}
+
+.edit-button {
+    position: relative;
+    left: 20%;
+}
+
+.date {
+    font-weight: bold;
+}
+
+.completed {
+    position: relative;
+    font-weight: bolder;
+    background-color: #219910;
+    color: aliceblue;
+    border-radius: 4px;
+    padding: 0.3%;
+    float: right;
+    margin-right: 1%;
+}

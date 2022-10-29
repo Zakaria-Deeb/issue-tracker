@@ -1,0 +1,54 @@
+.editPage {
+    background-color: none;
+    font-weight: bold;
+}
+
+.Title {
+    height: 20px;
+    border-radius: 2px;
+    background: none;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.issueType {
+    position: relative;
+    margin-left: 40px;
+    font-size: medium;
+    font-weight: 600;
+    color: black;
+}
+
+.Priority {
+    font-size: medium;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px black;
+    font-weight: 600;
+    color: black;
+}
+
+.Description {
+    width: 350px;
+    height: 100px;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+.complete {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px black;
+}
+
+.Edit {
+    position: relative;
+    float: right;
+}
+
+.cancel {
+    position: relative;
+    float: left;
+}

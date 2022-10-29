@@ -1,0 +1,22 @@
+.Modal {
+    position: fixed;
+    z-index: 500;
+    background: rgb(36, 64, 242);
+    background: linear-gradient(349deg, rgba(36, 64, 242, 1) 8%, rgba(97, 78, 79, 1) 51%, rgba(144, 144, 185, 1) 86%);
+    width: 80%;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px black;
+    padding: 40px;
+    left: 15%;
+    top: 25%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+}
+
+@media (min-width: 600px) {
+    .Modal {
+        width: 500px;
+        left: calc(25%);
+    }
+}

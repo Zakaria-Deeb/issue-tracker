@@ -1,0 +1,60 @@
+.addIssue {
+    background-color: none;
+    font-weight: bold;
+}
+
+.titleInput {
+    height: 20px;
+    border-radius: 2px;
+    background: none;
+    font-size: medium;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+._IssueType {
+    position: relative;
+    float: left;
+    margin-bottom: 4%;
+}
+
+._issueType {
+    width: 140px;
+    font-size: medium;
+    border-radius: 4px;
+    font-weight: 600;
+    box-shadow: 1px 1px 1px black;
+}
+
+._priority {
+    position: relative;
+    font-size: medium;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px black;
+    font-weight: 600;
+    color: black;
+}
+
+._description {
+    resize: none;
+    width: 80%;
+    height: 170px;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+._cancel {
+    position: relative;
+    float: left;
+}
+
+.submit {
+    position: relative;
+    float: right;
+}
+
+.buttons {
+    margin-top: 2%;
+}

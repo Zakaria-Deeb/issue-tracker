@@ -1,0 +1,68 @@
+.Search {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.Search input {
+    background-color: white;
+    border: 0;
+    border-radius: 4px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 16px;
+    padding: 15px;
+    height: 11px;
+    width: 260px;
+}
+
+.SearchIcon {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height: 41px;
+    width: 30px;
+    background-color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+.SearchIcon svg {
+    font-size: 30px;
+}
+
+#clrBtn {
+    cursor: pointer;
+}
+
+@media screen and (max-width:480px) {
+    .Search input {
+        height: 6px;
+        width: 50px;
+        font-size: smaller;
+    }
+    .SearchIcon {
+        height: 36px;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .Search input {
+        height: 8px;
+        width: 110px;
+    }
+    .SearchIcon {
+        height: 38px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .Search input {
+        height: 13px;
+        width: 190px;
+    }
+    .SearchIcon {
+        height: 43px;
+    }
+}
